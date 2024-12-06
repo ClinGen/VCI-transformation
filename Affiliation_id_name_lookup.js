@@ -49,8 +49,8 @@
     {
         "affiliation_id": "10009",
         "affiliation_vcep_id": "50009",
-        "affiliation_fullname": "Lysosomal Storage Disorders VCEP",
-        "guideline_name": "ClinGen Lysosomal Storage Disorders Expert Panel Specifications to the ACMG/AMP Variant Interpretation Guidelines Version 1",
+        "affiliation_fullname": "Lysosomal Diseases VCEP",
+        "guideline_name": "ClinGen Lysosomal Diseases Expert Panel Specifications to the ACMG/AMP Variant Interpretation Guidelines Version 1",
         "guideline_url": "https://www.clinicalgenome.org/affiliation/50009/docs/assertion-criteria"
     },
     {
@@ -101,7 +101,7 @@
     {
         "affiliation_id": "10017",
         "affiliation_vcep_id": "50017",
-        "affiliation_fullname": "Sequence Variant Discrepancy Resolution"
+        "affiliation_fullname": "Sequence Variant Discrepancy Resolution WG"
     },
     {
         "affiliation_id": "10018",
@@ -319,7 +319,8 @@
     },
     {
         "affiliation_id": "10061",
-        "affiliation_fullname": "Limb Girdle Muscular Dystrophy"
+        "affiliation_vcep_id": "50061",
+        "affiliation_fullname": "Limb Girdle Muscular Dystrophy VCEP"
     },
     {
         "affiliation_id": "10062",
@@ -332,7 +333,9 @@
     {
         "affiliation_id": "10064",
         "affiliation_vcep_id": "50064",
-        "affiliation_fullname": "Thrombosis VCEP"
+        "affiliation_fullname": "Thrombosis VCEP",
+        "guideline_name": "ClinGen Thrombosis Expert Panel Specifications to the ACMG/AMP Variant Interpretation Guidelines",
+        "guideline_url": "https://cspec.genome.network/cspec/ui/svi/affiliation/50064"
     },
     {
         "affiliation_id": "10065",
@@ -429,7 +432,9 @@
     {
         "affiliation_id": "10087",
         "affiliation_vcep_id": "50087",
-        "affiliation_fullname": "BRCA1/BRCA2 VCEP"
+        "affiliation_fullname": "ENIGMA BRCA1 and BRCA2 VCEP",
+        "guideline_name": "ClinGen ENIGMA BRCA1 and BRCA2 Expert Panel Specifications to the ACMG/AMP Variant Interpretation Guidelines",
+        "guideline_url": "https://cspec.genome.network/cspec/ui/svi/affiliation/50087"
     },
     {
         "affiliation_id": "10088",
@@ -468,7 +473,8 @@
     },
     {
         "affiliation_id": "10096",
-        "affiliation_fullname": "Amyotrophic Lateral Sclerosis Spectrum Disorders"
+        "affiliation_vcep_id": "50096",
+        "affiliation_fullname": "Amyotrophic Lateral Sclerosis Spectrum Disorders VCEP"
     },
     {
         "affiliation_id": "10097",
@@ -481,7 +487,9 @@
     {
         "affiliation_id": "10099",
         "affiliation_vcep_id": "50099",
-        "affiliation_fullname": "InSiGHT Hereditary Colorectal Cancer/Polyposis VCEP"
+        "affiliation_fullname": "InSiGHT Hereditary Colorectal Cancer/Polyposis VCEP",
+        "guideline_name": "ClinGen InSiGHT Hereditary Colorectal Cancer/Polyposis Expert Panel Specifications to the ACMG/AMP Variant Interpretation Guidelines for APC Version 1.0.0",
+        "guideline_url": "https://cspec.genome.network/cspec/ui/svi/doc/GN089"
     },
     {
         "affiliation_id": "10100",
@@ -495,11 +503,11 @@
     },
     {
         "affiliation_id": "10102",
-        "affiliation_fullname": "Motile Ciliopathy"
+        "affiliation_fullname": "Motile Ciliopathy GCEP"
     },
     {
         "affiliation_id": "10103",
-        "affiliation_fullname": "UCT Neurology Research Group"
+        "affiliation_fullname": "UCT Neurogenomics Lab"
     },
     {
         "affiliation_id": "10104",
@@ -530,7 +538,7 @@
     },
     {
         "affiliation_id": "10110",
-        "affiliation_fullname": "Lysosomal Diseases"
+        "affiliation_fullname": "Lysosomal Diseases GCEP"
     },
     {
         "affiliation_id": "10111",
@@ -572,7 +580,7 @@
     },
     {
         "affiliation_id": "10119",
-        "affiliation_fullname": "HLA"
+        "affiliation_fullname": "HLA Expert Panel"
     },
     {
         "affiliation_id": "10120",
@@ -588,7 +596,7 @@
     },
     {
         "affiliation_id": "10123",
-        "affiliation_fullname": "Systemic Lupus Erythematosus"
+        "affiliation_fullname": "Monogenic Systemic and Incomplete Lupus Erythematosus"
     },
     {
         "affiliation_id": "10124",
@@ -627,7 +635,7 @@
     {
         "affiliation_id": "10132",
         "affiliation_vcep_id": "50132",
-        "affiliation_fullname": "Anterior Segment Dysgenesis VCEP"
+        "affiliation_fullname": "Ocular Anterior Segment Disorder VCEP"
     },
     {
         "affiliation_id": "10133",
@@ -654,6 +662,123 @@
     {
         "affiliation_id": "10138",
         "affiliation_fullname": "Interstitial Lung Disease"
+    },
+    {
+        "affiliation_id": "10139",
+        "affiliation_fullname": "Monogenic Autoinflammatory Disease"
+    },
+    {
+        "affiliation_id": "10140",
+        "affiliation_vcep_id": "50140",
+        "affiliation_fullname": "ABCA4 VCEP"
+    },
+    {
+        "affiliation_id": "10141",
+        "affiliation_fullname": "Broad Clinical Labs"
+    },
+    {
+        "affiliation_id": "10142",
+        "affiliation_fullname": "Broad Institute: Rare Genomes Project"
+    },
+    {
+        "affiliation_id": "10143",
+        "affiliation_fullname": "HLA Ankylosing Spondylitis EP"
+    },
+    {
+        "affiliation_id": "10144",
+        "affiliation_fullname": "HLA Gout EP"
+    },
+    {
+        "affiliation_id": "10145",
+        "affiliation_fullname": "Primary Immune Regulatory Disorders"
+    },
+    {
+        "affiliation_id": "10146",
+        "affiliation_vcep_id": "50146",
+        "affiliation_fullname": "Alport Syndrome VCEP"
+    },
+    {
+        "affiliation_id": "10147",
+        "affiliation_vcep_id": "50147",
+        "affiliation_fullname": "Glucose-6-phosphate dehydrogenase VCEP"
+    },
+    {
+        "affiliation_id": "10148",
+        "affiliation_vcep_id": "50148",
+        "affiliation_fullname": "Desmosomal Cardiomyopathy VCEP"
+    },
+    {
+        "affiliation_id": "10149",
+        "affiliation_fullname": "Human Genomics Research Group, RCSI, Dublin"
+    },
+    {
+        "affiliation_id": "10150",
+        "affiliation_vcep_id": "50150",
+        "affiliation_fullname": "Endocrine Tumor Predisposition VCEP"
+    },
+    {
+        "affiliation_id": "10151",
+        "affiliation_fullname": "Muscular Dystrophies and Myopathies"
+    },
+    {
+        "affiliation_id": "10152",
+        "affiliation_vcep_id": "50152",
+        "affiliation_fullname": "MAPK/ERK Pathway SC-VCEP"
+    },
+    {
+        "affiliation_id": "10153",
+        "affiliation_vcep_id": "50153",
+        "affiliation_fullname": "Established Significance SC-VCEP"
+    },
+    {
+        "affiliation_id": "10154",
+        "affiliation_vcep_id": "50154",
+        "affiliation_fullname": "Albinism VCEP"
+    },
+    {
+        "affiliation_id": "10155",
+        "affiliation_fullname": "Cerebellar Ataxia"
+    },
+    {
+        "affiliation_id": "10156",
+        "affiliation_fullname": "Neurovascular"
+    },
+    {
+        "affiliation_id": "10157",
+        "affiliation_fullname": "Childhood, Adolescent and Young Adult Cancer Predisposition"
+    },
+    {
+        "affiliation_id": "10158",
+        "affiliation_vcep_id": "50158",
+        "affiliation_fullname": "Maculopathy VCEP"
+    },
+    {
+        "affiliation_id": "10159",
+        "affiliation_fullname": "University of Washington Center for Rare Disease Research"
+    },
+    {
+        "affiliation_id": "10160",
+        "affiliation_vcep_id": "50160",
+        "affiliation_fullname": "SCN5A VCEP"
+    },
+    {
+        "affiliation_id": "10161",
+        "affiliation_vcep_id": "50161",
+        "affiliation_fullname": "Motile Ciliopathy VCEP"
+    },
+    {
+        "affiliation_id": "10162",
+        "affiliation_vcep_id": "50162",
+        "affiliation_fullname": "Methylmalonic Acidemia and Propionic Acidemia VCEP"
+    },
+    {
+        "affiliation_id": "10163",
+        "affiliation_vcep_id": "50163",
+        "affiliation_fullname": "Ocular Oncology VCEP"
+    },
+    {
+        "affiliation_id": "10164",
+        "affiliation_fullname": "Somatic Mosaicism of Vascular Anomalies GCEP"
     },
     {
         "affiliation_id": "77777",
