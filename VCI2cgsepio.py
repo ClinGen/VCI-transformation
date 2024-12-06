@@ -434,7 +434,10 @@ def transform_provisional_variant(vci_pv , interpretation, entities, publish_dat
     if VCI_EVIDENCE_SUMMARY_KEY in vci_pv:
         interpretation.set_description( vci_pv[VCI_EVIDENCE_SUMMARY_KEY])
 
-    interpretation.set_statementOutcome( convert_significance(vci_pv) )
+    try:
+        interpretation.set_statementOutcome( convert_significance(vci_pv) )
+    except KeyError:
+        logging.warning('No classification found. Proceeding, but clinical significance will not be set.')
 
 # TODO talk to Ronak about these specialized significance terms.
 def convert_significance(vci_provisional_variant):
