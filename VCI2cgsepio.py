@@ -1014,7 +1014,10 @@ def handler(event, context):
     result = None
     result_type = 'application/json'
 
-    if event['path'] == '/sepio-transform/vci2cgsepio':
+    if 'warmer' in event and event['warmer']:
+        pass
+
+    elif event['path'] == '/sepio-transform/vci2cgsepio':
         if event['httpMethod'] != 'OPTIONS':
             result = transform_json_input(event['body'], 'first')
 
