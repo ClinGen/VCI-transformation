@@ -96,6 +96,9 @@ VCI_CSPEC_RULESET_KEY = 'ruleSetIri'
 VCI_CSPEC_SUBJECT_OUTPUT_KEY = 'subject'
 VCI_CSPEC_VERSION_INPUT_KEY = 'version'
 VCI_CSPEC_VERSION_OUTPUT_KEY = 'documentVersion'
+VCI_CSPEC_SPECIFIED_GENE_KEY = 'specifiedGene'
+VCI_CSPEC_NCBI_ID_KEY = 'ncbiGeneId'
+
 
 VCI_MISSENSE_EFFECT_PREDICTOR = 'missense_predictor'
 VCI_SPLICE_EFFECT_PREDICTOR = 'splice'
@@ -907,6 +910,12 @@ def transform_cspec(vci_cspec_data, interpretation):
 
     if VCI_CSPEC_VERSION_INPUT_KEY in vci_cspec_data:
         cspec_transformed_data[VCI_CSPEC_VERSION_OUTPUT_KEY] = vci_cspec_data[VCI_CSPEC_VERSION_INPUT_KEY]
+
+    if VCI_CSPEC_SPECIFIED_GENE_KEY in vci_cspec_data:
+        cspec_transformed_data[VCI_CSPEC_SPECIFIED_GENE_KEY] = vci_cspec_data[VCI_CSPEC_SPECIFIED_GENE_KEY]
+    
+    if VCI_CSPEC_NCBI_ID_KEY in vci_cspec_data:
+        cspec_transformed_data[VCI_CSPEC_NCBI_ID_KEY] = vci_cspec_data[VCI_CSPEC_NCBI_ID_KEY]
 
     if cspec_transformed_data:
         interpretation.set_cspec(VCI_CSPEC_KEY, cspec_transformed_data)

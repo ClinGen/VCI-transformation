@@ -1,0 +1,437 @@
+{
+  "interpretation": {
+      "@context": "http://dataexchange.clinicalgenome.org/interpretation/json/context",
+      "assertionMethod": {
+          "label": "ClinGen Hearing Loss Expert Panel Specifications to the ACMG/AMP Variant Interpretation Guidelines Version 1",
+          "type": "VariantPathogenicityInterpretationGuideline",
+          "url": "https://www.clinicalgenome.org/affiliation/50007/docs/assertion-criteria"
+      },
+      "condition": [
+          {
+              "disease": [
+                  {
+                      "id": "MONDO:0016577",
+                      "label": "biliary atresia with splenic malformation syndrome"
+                  }
+              ],
+              "inheritancePattern": {
+                  "id": "HP:0000006",
+                  "label": "Autosomal dominant inheritance"
+              },
+              "type": "GeneticCondition"
+          }
+      ],
+      "contribution": [
+          {
+              "agent": {
+                  "id": "http://curation.clinicalgenome.org/affiliation/50007",
+                  "label": "Hearing Loss VCEP",
+                  "type": "Agent"
+              },
+              "contributionDate": "2023-05-23T17:34:54.708Z",
+              "contributionRole": {
+                  "id": "SEPIO:0000155",
+                  "label": "approver"
+              },
+              "type": "Contribution"
+          },
+          {
+              "agent": "http://curation.clinicalgenome.org/affiliation/50007",
+              "contributionDate": "2023-09-06T17:30:26.683072",
+              "contributionRole": {
+                  "id": "SEPIO-CG:97010",
+                  "label": "publisher"
+              },
+              "type": "Contribution"
+          }
+      ],
+      "description": "Evidence summary text ",
+      "evidenceLine": [
+          {
+              "evidenceItem": [
+                  {
+                      "criterion": {
+                          "defaultStrength": {
+                              "id": "SEPIO:0000220",
+                              "label": "Pathogenic Very Strong"
+                          },
+                          "id": "SEPIO-CG:99022",
+                          "label": "PVS1",
+                          "type": "VariantPathogenicityInterpretationCriterion"
+                      },
+                      "description": "",
+                      "id": "a0390667-d16b-4bc0-8bee-36cee072eac6",
+                      "statementOutcome": {
+                          "id": "SEPIO:0000223",
+                          "label": "Met"
+                      },
+                      "type": "CriterionAssessment",
+                      "variant": {
+                          "id": "ClinVar:139200",
+                          "label": "NM_001379110.1(SLC9A6):c.474T>C (p.Ser158=)",
+                          "relatedContextualAllele": [
+                              {
+                                  "alleleName": [
+                                      {
+                                          "name": "NC_000023.11:g.135998508T>C",
+                                          "nameType": "hgvs"
+                                      }
+                                  ],
+                                  "contextualAlleleType": "genomic",
+                                  "referenceCoordinate": {
+                                      "end": {
+                                          "index": 135998508
+                                      },
+                                      "refState": "T",
+                                      "referenceSequence": {
+                                          "label": "NC_000023.11"
+                                      },
+                                      "start": {
+                                          "index": 135998507
+                                      }
+                                  },
+                                  "referenceGenome": {
+                                      "id": "SEPIO-CG:98203",
+                                      "label": "GRCh38"
+                                  },
+                                  "relatedCanonicalAllele": "ClinVar:139200",
+                                  "relatedChromosome": {
+                                      "id": "SEPIO-CG:98123",
+                                      "label": "X"
+                                  },
+                                  "state": "C",
+                                  "type": "ContextualAllele"
+                              },
+                              {
+                                  "alleleName": [
+                                      {
+                                          "name": "NC_000023.10:g.135080667T>C",
+                                          "nameType": "hgvs"
+                                      }
+                                  ],
+                                  "contextualAlleleType": "genomic",
+                                  "referenceCoordinate": {
+                                      "end": {
+                                          "index": 135080667
+                                      },
+                                      "refState": "T",
+                                      "referenceSequence": {
+                                          "label": "NC_000023.10"
+                                      },
+                                      "start": {
+                                          "index": 135080666
+                                      }
+                                  },
+                                  "referenceGenome": {
+                                      "id": "SEPIO-CG:98202",
+                                      "label": "GRCh37"
+                                  },
+                                  "relatedCanonicalAllele": "ClinVar:139200",
+                                  "relatedChromosome": {
+                                      "id": "SEPIO-CG:98123",
+                                      "label": "X"
+                                  },
+                                  "state": "C",
+                                  "type": "ContextualAllele"
+                              },
+                              {
+                                  "alleleName": [
+                                      {
+                                          "name": "NG_017160.1:g.18082T>C",
+                                          "nameType": "hgvs"
+                                      }
+                                  ],
+                                  "contextualAlleleType": "genomic",
+                                  "referenceCoordinate": {
+                                      "end": {
+                                          "index": 18082
+                                      },
+                                      "refState": "T",
+                                      "referenceSequence": {
+                                          "label": "NG_017160.1"
+                                      },
+                                      "start": {
+                                          "index": 18081
+                                      }
+                                  },
+                                  "relatedCanonicalAllele": "ClinVar:139200",
+                                  "state": "C",
+                                  "type": "ContextualAllele"
+                              },
+                              {
+                                  "alleleName": [
+                                      {
+                                          "name": "NM_001042537.2:c.630T>C",
+                                          "nameType": "hgvs"
+                                      }
+                                  ],
+                                  "contextualAlleleType": "transcript",
+                                  "referenceCoordinate": {
+                                      "end": {
+                                          "index": 698
+                                      },
+                                      "refState": "T",
+                                      "referenceSequence": {
+                                          "label": "NM_001042537.2"
+                                      },
+                                      "start": {
+                                          "index": 697
+                                      }
+                                  },
+                                  "relatedCanonicalAllele": "ClinVar:139200",
+                                  "relatedGene": {
+                                      "id": "NCBIGene:10479",
+                                      "label": "SLC9A6"
+                                  },
+                                  "state": "C",
+                                  "type": "ContextualAllele"
+                              },
+                              {
+                                  "alleleName": [
+                                      {
+                                          "name": "NP_001036002.1:p.Ser210=",
+                                          "nameType": "hgvs"
+                                      }
+                                  ],
+                                  "contextualAlleleType": "protein",
+                                  "referenceCoordinate": {
+                                      "referenceSequence": {
+                                          "label": "NP_001036002.1"
+                                      }
+                                  },
+                                  "relatedCanonicalAllele": "ClinVar:139200",
+                                  "type": "ContextualAllele"
+                              },
+                              {
+                                  "alleleName": [
+                                      {
+                                          "name": "NM_001177651.2:c.474T>C",
+                                          "nameType": "hgvs"
+                                      }
+                                  ],
+                                  "contextualAlleleType": "transcript",
+                                  "referenceCoordinate": {
+                                      "end": {
+                                          "index": 573
+                                      },
+                                      "refState": "T",
+                                      "referenceSequence": {
+                                          "label": "NM_001177651.2"
+                                      },
+                                      "start": {
+                                          "index": 572
+                                      }
+                                  },
+                                  "relatedCanonicalAllele": "ClinVar:139200",
+                                  "relatedGene": {
+                                      "id": "NCBIGene:10479",
+                                      "label": "SLC9A6"
+                                  },
+                                  "state": "C",
+                                  "type": "ContextualAllele"
+                              },
+                              {
+                                  "alleleName": [
+                                      {
+                                          "name": "NP_001171122.1:p.Ser158=",
+                                          "nameType": "hgvs"
+                                      }
+                                  ],
+                                  "contextualAlleleType": "protein",
+                                  "referenceCoordinate": {
+                                      "referenceSequence": {
+                                          "label": "NP_001171122.1"
+                                      }
+                                  },
+                                  "relatedCanonicalAllele": "ClinVar:139200",
+                                  "type": "ContextualAllele"
+                              },
+                              {
+                                  "alleleName": [
+                                      {
+                                          "name": "NM_001330652.2:c.378T>C",
+                                          "nameType": "hgvs"
+                                      }
+                                  ],
+                                  "contextualAlleleType": "transcript",
+                                  "referenceCoordinate": {
+                                      "end": {
+                                          "index": 472
+                                      },
+                                      "refState": "T",
+                                      "referenceSequence": {
+                                          "label": "NM_001330652.2"
+                                      },
+                                      "start": {
+                                          "index": 471
+                                      }
+                                  },
+                                  "relatedCanonicalAllele": "ClinVar:139200",
+                                  "relatedGene": {
+                                      "id": "NCBIGene:10479",
+                                      "label": "SLC9A6"
+                                  },
+                                  "state": "C",
+                                  "type": "ContextualAllele"
+                              },
+                              {
+                                  "alleleName": [
+                                      {
+                                          "name": "NP_001317581.1:p.Ser126=",
+                                          "nameType": "hgvs"
+                                      }
+                                  ],
+                                  "contextualAlleleType": "protein",
+                                  "referenceCoordinate": {
+                                      "referenceSequence": {
+                                          "label": "NP_001317581.1"
+                                      }
+                                  },
+                                  "relatedCanonicalAllele": "ClinVar:139200",
+                                  "type": "ContextualAllele"
+                              },
+                              {
+                                  "alleleName": [
+                                      {
+                                          "name": "NM_001379110.1:c.474T>C",
+                                          "nameType": "hgvs"
+                                      }
+                                  ],
+                                  "contextualAlleleType": "transcript",
+                                  "preferred": true,
+                                  "referenceCoordinate": {
+                                      "end": {
+                                          "index": 573
+                                      },
+                                      "refState": "T",
+                                      "referenceSequence": {
+                                          "label": "NM_001379110.1"
+                                      },
+                                      "start": {
+                                          "index": 572
+                                      }
+                                  },
+                                  "relatedCanonicalAllele": "ClinVar:139200",
+                                  "relatedGene": {
+                                      "id": "NCBIGene:10479",
+                                      "label": "SLC9A6"
+                                  },
+                                  "state": "C",
+                                  "type": "ContextualAllele"
+                              },
+                              {
+                                  "alleleName": [
+                                      {
+                                          "name": "NP_001366039.1:p.Ser158=",
+                                          "nameType": "hgvs"
+                                      }
+                                  ],
+                                  "contextualAlleleType": "protein",
+                                  "referenceCoordinate": {
+                                      "referenceSequence": {
+                                          "label": "NP_001366039.1"
+                                      }
+                                  },
+                                  "relatedCanonicalAllele": "ClinVar:139200",
+                                  "type": "ContextualAllele"
+                              },
+                              {
+                                  "alleleName": [
+                                      {
+                                          "name": "NM_006359.3:c.534T>C",
+                                          "nameType": "hgvs"
+                                      }
+                                  ],
+                                  "contextualAlleleType": "transcript",
+                                  "referenceCoordinate": {
+                                      "end": {
+                                          "index": 602
+                                      },
+                                      "refState": "T",
+                                      "referenceSequence": {
+                                          "label": "NM_006359.3"
+                                      },
+                                      "start": {
+                                          "index": 601
+                                      }
+                                  },
+                                  "relatedCanonicalAllele": "ClinVar:139200",
+                                  "relatedGene": {
+                                      "id": "NCBIGene:10479",
+                                      "label": "SLC9A6"
+                                  },
+                                  "state": "C",
+                                  "type": "ContextualAllele"
+                              },
+                              {
+                                  "alleleName": [
+                                      {
+                                          "name": "NP_006350.1:p.Ser178=",
+                                          "nameType": "hgvs"
+                                      }
+                                  ],
+                                  "contextualAlleleType": "protein",
+                                  "referenceCoordinate": {
+                                      "referenceSequence": {
+                                          "label": "NP_006350.1"
+                                      }
+                                  },
+                                  "relatedCanonicalAllele": "ClinVar:139200",
+                                  "type": "ContextualAllele"
+                              }
+                          ],
+                          "relatedIdentifier": [
+                              {
+                                  "id": "http://reg.genome.network/allele/CA293611",
+                                  "label": "NM_001379110.1(SLC9A6):c.474T>C (p.Ser158=)"
+                              },
+                              {
+                                  "id": "dbSNP:144316388"
+                              }
+                          ],
+                          "type": "CanonicalAllele"
+                      }
+                  }
+              ],
+              "evidenceStrength": "SEPIO:0000220",
+              "type": "EvidenceLine"
+          },
+          {
+              "evidenceItem": [
+                  {
+                      "criterion": {
+                          "defaultStrength": {
+                              "id": "SEPIO:0000216",
+                              "label": "Pathogenic Moderate"
+                          },
+                          "id": "SEPIO-CG:99030",
+                          "label": "PM4",
+                          "type": "VariantPathogenicityInterpretationCriterion"
+                      },
+                      "description": "Explanation PM4",
+                      "id": "06d520ca-71b2-4c99-867d-6094670a7585",
+                      "statementOutcome": {
+                          "id": "SEPIO:0000223",
+                          "label": "Met"
+                      },
+                      "type": "CriterionAssessment",
+                      "variant": "ClinVar:139200"
+                  }
+              ],
+              "evidenceStrength": "SEPIO:0000216",
+              "type": "EvidenceLine"
+          }
+      ],
+      "id": "686329b0-5ddb-4672-bf24-1658e6f0a4e3",
+      "statementOutcome": {
+          "id": "LOINC:LA26332-9",
+          "label": "Likely Pathogenic"
+      },
+      "type": "VariantPathogenicityInterpretation",
+      "variant": "ClinVar:139200"
+  },
+  "curationReasons": [
+      "New Curation"
+  ],
+  "statusPublishFlag": "Publish"
+}
