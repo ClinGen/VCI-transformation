@@ -332,7 +332,7 @@ def add_contributions( source, affiliation_id, target, entities, ondate, role ):
         add_contribution( source, affiliation_id, target,  ondate, entities, role)
 
 def convert_moi(moi, moiadj):
-  m = re.search('^([A-Za-z \-]+)\(HP:[0-9]{7}\)$', moi)
+  m = re.search(r'^([A-Za-z \-]+)\(HP:[0-9]{7}\)$', moi)
   if m is None:
     if moi == 'Other':
       moi_label = moiadj
