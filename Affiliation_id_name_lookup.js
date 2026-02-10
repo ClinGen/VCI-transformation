@@ -781,6 +781,67 @@
         "affiliation_fullname": "Somatic Mosaicism of Vascular Anomalies GCEP"
     },
     {
+        "affiliation_id": "10165",
+        "affiliation_fullname": "Clinical Institute for Special Laboratory Diagnostics, UMC Ljubljana"
+    },
+    {
+        "affiliation_id": "10166",
+        "affiliation_vcep_id": "50166",
+        "affiliation_fullname": "Pediatric Cataract VCEP"
+    },
+    {
+        "affiliation_id": "10167",
+        "affiliation_vcep_id": "50167",
+        "affiliation_fullname": "Rhodopsin VCEP"
+    },
+    {
+        "affiliation_id": "10168",
+        "affiliation_vcep_id": "50168",
+        "affiliation_fullname": "EGFR Somatic Cancer"
+    },
+    {
+        "affiliation_id": "10169",
+        "affiliation_vcep_id": "50169",
+        "affiliation_fullname": "RYR2 VCEP"
+    },
+    {
+        "affiliation_id": "10170",
+        "affiliation_fullname": "Test Curation Group 1"
+    },
+    {
+        "affiliation_id": "10171",
+        "affiliation_vcep_id": "50171",
+        "affiliation_fullname": "Tuberous Sclerosis Complex VCEP"
+    },
+    {
+        "affiliation_id": "10172",
+        "affiliation_vcep_id": "50172",
+        "affiliation_fullname": "Monogenic Autoinflammatory Diseases VCEP"
+    },
+    {
+        "affiliation_id": "10173",
+        "affiliation_fullname": "Can be re-used. Need to contact. GCEP"
+    },
+    {
+        "affiliation_id": "10174",
+        "affiliation_vcep_id": "50174",
+        "affiliation_fullname": "Prenatal VCEP"
+    },
+    {
+        "affiliation_id": "10175",
+        "affiliation_vcep_id": "50175",
+        "affiliation_fullname": "Skeletal Disorders VCEP"
+    },
+    {
+        "affiliation_id": "10176",
+        "affiliation_fullname": "Geisinger GC Program Test"
+    },
+    {
+        "affiliation_id": "10177",
+        "affiliation_vcep_id": "50177",
+        "affiliation_fullname": "ALPL VCEP"
+    },
+    {
         "affiliation_id": "77777",
         "affiliation_vcep_id": "57777",
         "affiliation_fullname": "ClinGen Collaboration Test Affiliation VCEP",

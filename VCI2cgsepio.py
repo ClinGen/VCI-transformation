@@ -96,6 +96,8 @@ VCI_CSPEC_RULESET_KEY = 'ruleSetIri'
 VCI_CSPEC_SUBJECT_OUTPUT_KEY = 'subject'
 VCI_CSPEC_VERSION_INPUT_KEY = 'version'
 VCI_CSPEC_VERSION_OUTPUT_KEY = 'documentVersion'
+VCI_CSPEC_SPECIFIED_GENE_KEY = 'specifiedGene'
+VCI_CSPEC_NCBI_ID_KEY = 'ncbiGeneId'
 
 VCI_MISSENSE_EFFECT_PREDICTOR = 'missense_predictor'
 VCI_SPLICE_EFFECT_PREDICTOR = 'splice'
@@ -330,7 +332,7 @@ def add_contributions( source, affiliation_id, target, entities, ondate, role ):
         add_contribution( source, affiliation_id, target,  ondate, entities, role)
 
 def convert_moi(moi, moiadj):
-  m = re.search('^([A-Za-z \-]+)\(HP:[0-9]{7}\)$', moi)
+  m = re.search(r'^([A-Za-z \-]+)\(HP:[0-9]{7}\)$', moi)
   if m is None:
     if moi == 'Other':
       moi_label = moiadj
@@ -907,6 +909,12 @@ def transform_cspec(vci_cspec_data, interpretation):
 
     if VCI_CSPEC_VERSION_INPUT_KEY in vci_cspec_data:
         cspec_transformed_data[VCI_CSPEC_VERSION_OUTPUT_KEY] = vci_cspec_data[VCI_CSPEC_VERSION_INPUT_KEY]
+
+    if VCI_CSPEC_SPECIFIED_GENE_KEY in vci_cspec_data:
+        cspec_transformed_data[VCI_CSPEC_SPECIFIED_GENE_KEY] = vci_cspec_data[VCI_CSPEC_SPECIFIED_GENE_KEY]
+
+    if VCI_CSPEC_NCBI_ID_KEY in vci_cspec_data:
+        cspec_transformed_data[VCI_CSPEC_NCBI_ID_KEY] = vci_cspec_data[VCI_CSPEC_NCBI_ID_KEY]
 
     if cspec_transformed_data:
         interpretation.set_cspec(VCI_CSPEC_KEY, cspec_transformed_data)

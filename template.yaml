@@ -16,7 +16,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: VCI2cgsepio.handler
-      Runtime: python3.9
+      Runtime: python3.14
       Environment:
         Variables:
           DOCKER_LAMBDA_USE_STDIN: 1
